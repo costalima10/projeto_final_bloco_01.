@@ -2,7 +2,7 @@ package Papelaria.model;
 
 public class ProdutoBrinquedo extends Produto{
 
-	private String carrinho = "Hot Wheels";
+	private String carrinho = "";
 	public ProdutoBrinquedo(int id, int tipo, String nome, float preco, String carrinho) {
 		super(id, tipo, nome, preco);
 		this.carrinho = carrinho;

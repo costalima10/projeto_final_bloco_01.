@@ -2,7 +2,7 @@ package Papelaria.model;
 
 public class ProdutoMaterial extends Produto {
 
-	String caneta = "caneta";
+	String caneta = "";
 	public ProdutoMaterial(int id, int tipo, String nome, float preco, String caneta) {
 		super(id, tipo, nome, preco);
 		this.caneta = caneta;
@@ -17,6 +17,6 @@ public class ProdutoMaterial extends Produto {
 			@Override
 			public void visualizar() {
 				super.visualizar();
-				System.out.println("O tipo do " + this.getTipo()+ " é " + this.getCaneta());
+				System.out.println("\nO tipo do produto  é caneta ");
 			}
 }

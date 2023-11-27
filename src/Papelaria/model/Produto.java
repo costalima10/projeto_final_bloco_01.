@@ -50,13 +50,13 @@ public abstract class  Produto {
 	
 	//Metodos vizualizar
 		public void visualizar() {
-			String tipo = "";
+			String tipo = ""; 
 			switch(this.tipo) {
 			case 1:
-				tipo = "Caneta";
+				tipo = "";
 				break;
 			case 2: 
-				tipo = "Carrinho";
+				tipo = "";
 				break;
 			default:
 				
