@@ -8,7 +8,7 @@ public class Menu {
 		
 		Scanner leia = new Scanner(System.in);
 		
-		int op;//variavel que vou usar para verificar a opção que o uusuario vai digitar
+		int op;//variavel que vou usar para verificar a opção que o usuario vai digitar
 	
 	while(true) {
 		
